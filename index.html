@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>chatbot</title>
+        <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="h-screen w-full p-[2%]">
+        <div class="flex justify-between items-center">
+                <h1 class="nomDeLaPage">BANKBUDDY</h1>
+                <div class="w-[60px] p-1 h-[30px] bg-gray-100 rounded-2xl">
+                        <button><i class="far fa-sun"></i></button>
+                </div>        
+        </div>
+        <section class="container flex gap-5">
+                <div class="div1">
+                        <div>
+                                <p >Bienvenu sur,</p>
+                                <h1 class="nomDeLaPage">BANKBUDDY</h1>
+                        </div>
+                        <div class="infos pt-8">
+                                <h3 class="text-xl">Votre assistant <span>bancaire</span> 24/7</h3>
+                                <h3 class="text-xl">Des <span>réponses</span> instantanées</h3>
+                                <h3 class="text-xl">Une aide toujours à <span>portée de clic !</span></h3>
+                        </div>
+                        <div class="imageContainer">
+                                <img src="./pngtree-robotic-assistant-or-artificial-intelligence-robot-with-empty-screen-tablet-png-image_14723466.png" alt="">
+                        </div>
+                        <div class="containerAssistant">
+                                <button type="button" class="btnAssistant" onclick={openMessage}>assistant</button>
+                        </div>
+                </div>
+                <div class="div2">
+                        <div class="discussion"><h3>Discussion</h3></div>
+                        <form action="">
+                                <textarea name="" id="" placeholder="Enter votre demande ..."></textarea>
+                                <button type="submit" class="btn">Envoyer</button>
+                        </form>
+                </div>
+
+        </section>
+        <footer><p>Make by @joeltobias &copy; 2025 simplon CI</p></footer>
+        <script src="script.js"></script>
+</body>
+
+</html>

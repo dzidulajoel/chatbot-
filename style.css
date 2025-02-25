@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');*{
+        margin: 0;
+        box-sizing: border-box;
+}
+:root{
+        --color-one:#F2EFE7;
+        --color-two:#2973B2;
+        --color0three:#212121;
+}
+.nomDeLaPage{
+        font-family: "Righteous", serif;        
+        font-size: 2rem;
+        color: var(--color-two);
+        text-align: justify;
+}
+
+.infos h3, p{
+        font-family: "Poppins", serif;
+        text-align: justify;
+        font-size: 18px;
+}
+
+span{
+        color: #2973B2;
+        font-weight: bolder;
+}
+.container{
+        margin: auto;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        padding: 10px;
+        height: 600px;
+        width: 900px;
+        margin-top: 60px;
+
+}
+.imageContainer{
+        width: 100%;
+}
+
+.div1{
+        width: 40%;
+}
+
+.div2{
+        width: 60%;
+        padding:10px;
+        background-color: #212121;
+        position: relative;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        overflow: auto;
+}
+.imageContainer img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: left;
+}
+
+.btn{
+        color: #2973B2;
+        border: 1px solid #2973B2;
+        width: 25%;
+        height: 100%;
+        transition: background-color 0.5s;
+        cursor: pointer;
+
+}
+
+
+.btn:hover{
+        background-color: #2973B2;
+        color: #F2EFE7;
+}
+.btnAssistant{
+        width: 150px;
+        font-family: "Poppins", serif;
+        height: 40px;
+        border: 1px solid #2973B2;
+        transition: background-color 0.5s;
+        cursor: pointer;
+}
+
+.btnAssistant:hover{
+        background-color: #2973B2;
+        color: #F2EFE7;
+}
+
+form{
+        height: 40px;
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+form textarea{
+        width: 70%;
+        height: 100%;
+        border: 2px solid var(--color-two);
+        padding: 4px 7px;
+        color: #F2EFE7;
+        font-family: "Poppins", serif;
+        font-size: .9rem;
+        padding-right: 10px;
+        outline: none;
+}
+
+
+
+.containerAssistant{
+        display: flex;
+        justify-content: end;       
+
+}
+
+.discussion{
+        background-color: #F2EFE7;
+        color: #2973B2;
+        font-family: "Poppins", serif;
+        padding: 5px;
+}
+
+
+footer{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+}
+
+footer p{
+        font-size: 12px;
+}
